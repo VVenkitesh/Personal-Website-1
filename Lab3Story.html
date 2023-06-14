@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+        <meta charset = "utf-8">
+        <meta name = "V.V's Webpage"
+            content = "A Cool Webpage">
+        <title>V.V.'s Webpage</title>
+
+        <link href="CSS Styles/Lab3Styles1.css" rel="stylesheet" type="text/css" />
+
+</head>
+
+<body> 
+    <h1> Choose Your Own Adventure! </h1>
+    <p> Read lots of books lately and want a change? Why don't you create your own adventure instead? Simply click the button below to get started. Have fun, and good luck!</p>
+
+    <button class = "polo, hyper3" onclick = begin()>Click Here!</button>
+    <ul></ul>
+
+    <h3> Hyperlinks:</h3>
+    <li class = "hyper1"> <a href = "Index.html"  title = "Thanks for coming!"> If you would like to go back to the home page, click here! </a></li>
+
+    <li class = "hyper1"> <a href = "Lab1bookrecs.html"  title = "Fiction Books!"> If you would like to go back to the fiction book recommendations, click here! </a></li>
+
+    <li class = "hyper1"><a href = "Lab2NFbookrecs.html" title = "Nonfiction Books!"> If you would like to go back to the nonfiction book recommendations, click here!</a></li>
+
+    <script 
+
+    src="Lab3Story.js">
+
+let bullet = document.querySelector('button');
+bullet.addEventListener('click', begin());
+
+    </script>
+
+</body>
